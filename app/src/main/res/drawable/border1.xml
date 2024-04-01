@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background color (passed as parameter) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#B2B7BA" /> <!-- Use parameter for background color -->
+            <corners android:radius="20dp" /> <!-- Rounded corners -->
+        </shape>
+    </item>
+
+
+
+</layer-list>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background color (passed as parameter) -->
+    <item android:width="40dp"
+        android:height="40dp">
+        <shape android:shape="oval">
+            <solid android:color="#D3BDBD" /> <!-- Use parameter for background color -->
+        </shape>
+    </item>
+
+    <item
+        android:drawable="@drawable/greater"
+        android:gravity="center"
+        android:width="30dp"
+        android:height="30dp"
+        />
+
+</layer-list>

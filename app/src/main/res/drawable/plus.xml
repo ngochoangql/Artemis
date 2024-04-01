@@ -1,0 +1,34 @@
+<!-- circle_with_cross.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Hình tròn -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#ECF7F8" /> <!-- Màu nền của hình tròn -->
+            <stroke android:width="2px" android:color="#000000"/> <!-- Viền đen -->
+            <padding android:left="2dp" android:top="2dp" android:right="2dp" android:bottom="2dp" /> <!-- Phần padding để làm cho viền đen hiển thị -->
+
+        </shape>
+    </item>
+
+    <!-- Dấu cộng dọc -->
+
+    <item android:gravity="center"  android:top="10dp" android:bottom="10dp">
+        <shape android:shape="rectangle">
+            <size android:width="5dp" android:height="30dp"/> <!-- Điều chỉnh kích thước của dấu cộng -->
+            <solid android:color="#2196F3"/> <!-- Màu của dấu cộng -->
+        </shape>
+    </item>
+
+    <!-- Dấu cộng ngang -->
+    <item android:gravity="center" android:left="10dp" android:right="10dp">
+        <shape android:shape="rectangle">
+            <size android:width="30dp" android:height="5dp"/> <!-- Điều chỉnh kích thước của dấu cộng -->
+            <solid android:color="#2196F3"/> <!-- Màu của dấu cộng -->
+        </shape>
+    </item>
+
+
+
+
+</layer-list>

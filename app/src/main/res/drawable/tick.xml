@@ -1,0 +1,18 @@
+<!-- drawable_tick.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+
+    <!-- Background white -->
+    <path
+        android:pathData="M0,0h24v24h-24z"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Check mark icon -->
+    <path
+        android:pathData="M9,16.17l-3.5,-3.5l-1.17,1.17l4.67,4.66l10,-10l-1.31,-1l-8.5,8.59z"
+        android:fillColor="#000000"/>
+
+</vector>

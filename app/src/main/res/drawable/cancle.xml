@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background white -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/> <!-- White color -->
+        </shape>
+    </item>
+
+    <!-- Diagonal line 1 (from top left to bottom right) -->
+    <item android:left="7dp" android:right="7dp">
+        <rotate
+            android:fromDegrees="45"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <shape
+                android:shape="line">
+                <stroke
+                    android:width="3dp"
+                    android:color="#000000" /> <!-- Black color -->
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- Diagonal line 2 (from top right to bottom left) -->
+    <item android:left="7dp" android:right="7dp">
+        <rotate
+            android:fromDegrees="-45"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <shape
+                android:shape="line">
+                <stroke
+                    android:width="3dp"
+                    android:color="#000000" /> <!-- Black color -->
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>
